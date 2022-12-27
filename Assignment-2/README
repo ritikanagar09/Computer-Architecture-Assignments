@@ -1,0 +1,6 @@
+python3 `which scons` build/X86/gem5.opt
+build/X86/gem5.opt --debug-flag=VECTORS configs/learning_gem5/part2/run_simple.py
+build/X86/gem5.opt --debug-flag=ADDRESULT configs/learning_gem5/part2/run_simple.py
+build/X86/gem5.opt --debug-flag=DOTRESULT configs/learning_gem5/part2/run_simple.py
+build/X86/gem5.opt --debug-flag=NORMALIZE configs/learning_gem5/part2/run_simple.py
+build/X86/gem5.opt --debug-flag=BONUS configs/learning_gem5/part2/run_simple.py
